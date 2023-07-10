@@ -9,7 +9,7 @@
 a{
     text-decoration: none;
     color: black;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 .logo img{
@@ -23,15 +23,14 @@ header{
 }
 
 .container{
-    display:grid;
-    width: 80%;
+    /* background-color: yellow; */
     margin: 4% 10%;
-    align-items: center;
 }
 
 .content{
     display: grid;
-    /* flex-direction: row; */
+    height: 95vh;
+    margin-top: 20px;
     gap: 30px;
     grid-template-rows:repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
@@ -49,25 +48,112 @@ header{
 }
 
 .two{
-    width:100%;
     background-color: hsl(240, 100%, 5%);
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: 10px;
     grid-area: two;
 }
 .two h3{
     font-size: 1rem;
     font-weight: 800;
+    color: white;
 }
 .two p{
     font-size: 15px;
     font-weight: 400;
-};
-
-.two h2{
-    color: hsl(35, 77%, 62%);
-    margin-left: 20px;
+    color: white;
+    
 }
 
+.two h2 {
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+button{
+    color: #fff;
+    padding:5px 10px;
+    background-color:  hsl(5, 85%, 63%);
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.three{
+    grid-area:three;
+}
+
+.three h1{
+    font-weight:900;
+}
+.four{
+    font-size: 15px;
+    grid-area: four;
+    
+}
+.four p {
+    color: hsl(231, 24%, 11%);
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+.five{
+    grid-area: five;
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    gap:15px;
+}
+.five img{
+    width: 60px;
+    height:100%;
+}
+
+.five p{
+    font-size: 14px;
+    color: hsl(231, 17%, 8%);
+}
+
+
+.number{
+    color: hsl(233, 8%, 79%)
+}
+.six{
+    display: flex;
+    align-items: center;
+    grid-area: six;
+    padding: 10px;
+    gap:15px;
+    
+}
+.six img{
+    width: 60px;
+    height:100%;
+}
+
+.six p{
+    font-size: 14px;
+    color: hsl(231, 17%, 8%);
+}
+
+.seven{
+    display: flex;
+    align-items: center;
+    grid-area: seven;
+    padding: 10px;
+    gap:15px;
+}
+
+.seven img{
+    width: 60px;
+    height:100%;
+}
+
+.seven p{
+    font-size: 14px;
+    color: hsl(231, 17%, 8%);
+}
